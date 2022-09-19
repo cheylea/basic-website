@@ -14,11 +14,12 @@ C:.
 │   index.html
 │   about.html
 └───static
+    ├───audio
     ├───css
     │   └───style.css
-    ├───audio
     ├───files
-    └───images
+    ├───images
+    └───screenshots
 ```
 
 ## Using the files
