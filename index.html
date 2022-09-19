@@ -2,18 +2,66 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>title</title>
-		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-        <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
+    <!-- Title webpage -->
+		<title>Suki the Ginger Cat</title>
+    <!-- Reference stylesheet -->
+		 <link rel="stylesheet" type="text/css" href="static\css\style.css">
+     <!-- Add in favicon -->
+    <link rel="icon" type="image/png" href="static\images\favicon.png">
 	</head>
 	<body>
-        <div class="container">
-          <div class="row">
-            <div class="one-half column" style="margin-top: 25%">
-                  <h1>Home Page</h1>
-                  <p>Hi</p>
-            </div>
-          </div>
-        </div>
+  
+    <!-- Page Header -->
+    <div class="header">
+      <!-- Add in website title and logo -->
+          <img src="static\images\favicon.png" alt="Logo for Suki the Ginger Cat">
+          <h1>Suki the Ginger Cat</h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+      <!-- Add each page for navigation -->
+      <ul>
+        <li><a href="http://localhost/csck543-website/index.html">Home</a></li>
+        <li><a href="http://localhost/csck543-website/about.html">About</a></li>
+      </ul>
+    </div>
+
+    <!-- Page Content -->
+    <div class="row">
+
+      <!-- Main Content -->
+      <div class="main">
+        <!-- Add basic welcoming text -->
+        <h1>Welcome</h1>
+        <br>
+        <p>This website is dedicated to Suki the Ginger Cat. Within it, you can find out everything you need to know about Suki the Ginger Cat.</p>
+        <br>
+        <p>Click the image below to find out more about Suki the Ginger Cat.</p>
+        <br>
+        <!-- Add clickable image to take to About page -->
+        <a href="http://localhost/csck543-website/about.html">
+          <img src="static\images\picture5.png" width="40%" alt="Suki the ginger cat sleeping.">
+        </a>
+      </div>
+
+      <!-- Right Hand Side Content -->
+      <div class="right">
+        <!-- Add each image to the right hand side gallary -->
+            <img src="static\images\picture1.png" width="45%" alt="Suki the ginger cat under the window">
+            <img src="static\images\picture2.png" width="45%" alt="Suki the ginger cat in the sunshine">
+            <img src="static\images\picture4.png" width="45%" alt="Suki the ginger cat watching TV">
+            <img src="static\images\picture3.png" width="45%" alt="Suki the ginger cat on the sofa">
+            <img src="static\images\picture6.png" width="45%" alt="Suki the ginger cat looking forward">
+            <img src="static\images\picture7.png" width="45%" alt="Suki the ginger cat sleeping on pink blanket">
+      </div>
+    </div>
+
+    <!-- Page Footer -->
+    <div class="footer">
+      <!-- Add footer text with link -->
+      <p>Website designed by Cheylea Hopkinson. Contact on <a href="https://www.linkedin.com/in/cheyleahopkinson/">LinkedIn</a>.</p>
+    </div>
+
 	</body>
 </html>
