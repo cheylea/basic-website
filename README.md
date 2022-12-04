@@ -1,4 +1,4 @@
-# csck543-website
+# Basic Website
 This repository was created for the mid-module assignment for the Networks and Web Technology module.
 
 ## Brief
